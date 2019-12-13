@@ -1,0 +1,76 @@
+.section {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.section header {
+    text-align: center;
+}
+
+.section header:after {
+    display: block;
+    content: '';
+    width: 6em;
+    height: 4px;
+    background: #000;
+    margin: 1em auto 2em auto;
+}
+
+.section header a {
+    color: #000;
+    text-decoration: none;
+}
+
+.section header h1,
+.section header h2,
+.section header h3 {
+    margin: 0;
+}
+
+/*
+ * Section - Feedback
+ */
+.section.section-feedback {
+    background-color: #926b92;
+    padding: 4em;
+}
+
+.section.section-feedback header:after {
+    background: #FFF;
+}
+
+.section.section-feedback header,
+.section.section-feedback header a {
+    color: #FFF;
+}
+
+.section-content.your-project {
+    width: 35em;
+
+}
+
+/*
+ * Section - Call to Action
+ */
+
+.section.section-cta .wrapper {
+    padding: 10em 0;
+}
+
+.section.section-cta header {
+    text-align: left;
+}
+
+.section.section-cta header:after { display: none; }
+
+
+
+/*
+ * Section - tools
+ */
+.section.section-tools {
+    background: #CCC;
+    padding: 2em;
+}
+
+
