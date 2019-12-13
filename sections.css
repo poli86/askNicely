@@ -52,9 +52,21 @@
 /*
  * Section - Call to Action
  */
+.section-with-image {
+    background: url(./images/1.png) center no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 3em;
+    margin-bottom: 2em;
 
+}
+.transparant {
+    padding-bottom: 2em;
+    color: transparent;
+}
 .section.section-cta .wrapper {
     padding: 10em 0;
+
 }
 
 .section.section-cta header {
