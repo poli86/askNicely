@@ -45,7 +45,7 @@
 }
 
 .section-content.your-project {
-    width: 35em;
+    max-width: 35em;
 
 }
 
